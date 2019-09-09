@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+.task_field{
+    width:1024px;
+    height:560px;
+    text-align:center;
+    margin:0 auto;
+    position:relative;
+    padding-top:20px;
+}
+
+.task_description{
+    font-size:32px;
+    text-align: center;
+    margin-bottom:200px;
+}
+
+.option{
+    border:1px solid #3a76a3;
+    border-radius: 7px;
+    color:#3a76a3;
+    width:120px;
+    height:35px;
+    display:inline-block;
+    text-align: center;
+    padding-top:5px;
+    margin-right:30px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom:200px;
+}
+
+.option:hover{
+    background-color:#f2f2f2;
+}
+
+.active_option{
+    background-color:#3a76a3;
+    border:1px solid #3a76a3;
+    color:#ffffff;
+}
+
+.active_option:hover{
+    background-color:#3a76a3;
+    border:1px solid #3a76a3;
+    color:#ffffff;
+}
+
+
+.error_option{
+    background-color: #f05a69;
+    border:1px solid #f05a69;
+    color:#ffffff;
+}
+
+.done_button{
+    display:block;
+    background-color:#b9e0ed;
+    color:#ffffff;
+    text-decoration:none;
+    width:100px;
+    height:35px;
+    border-radius: 7px;
+    text-align:center;
+    font-size:20px;
+    padding-top:5px;
+    margin:0 auto;
+    cursor: not-allowed;
+}
+
+.active_done_button{
+    background-color:#70c5e2;
+    cursor:pointer;
+}
+
+.active_done_button:hover{
+    background-color:#39b6e2;
+}
+
+.error_done_button{
+    background-color: #f05a69;
+}
+
+.error_done_button:hover{
+    background-color: #f05a69;
+}
+
+.well_done_button{
+    background-color:#8fbe83;
+}
+
+.well_done_button:hover{
+    background-color:#8fbe83;
+}
+
+.hint{
+    position:absolute;
+    left:44.5%;
+    bottom:15%;
+    width:auto;
+    padding-top:5px;
+    padding-left:7px;
+    padding-right:7px;
+    height:35px;
+    background-color:#add9da;
+    font-size: 20px;
+    border-radius: 7px;
+    display:none;
+}
